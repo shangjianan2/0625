@@ -1,7 +1,7 @@
-LIBS=-lm -pthread
+LIBS=-lm -lpthread
 OBJS=main.o error.o
 main:$(OBJS)
-	gcc -g -Wall $(OBJS) -o main
+	gcc -g -Wall $(OBJS) -o main $(LIBS)
 main.o:main.c
 	gcc -g -Wall -c main.c -o main.o
 error.o:error.c
