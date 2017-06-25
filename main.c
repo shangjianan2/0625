@@ -1,6 +1,6 @@
 #include "apue.h"
 #include <pthread.h>
-//lunge zuishuai
+//this is a test
 
 pthread_t		ntid;
 
