@@ -1,6 +1,6 @@
 #include "apue.h"
 #include <pthread.h>
-//this is a test
+//This is a test
 
 pthread_t		ntid;
 
